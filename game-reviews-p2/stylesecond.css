@@ -1,0 +1,57 @@
+*{
+    cursor: url("img2/cursor\ tiny.png"), auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img2/wii-background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+
+    background-color: white;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+}
+
+.page{
+    width: 100%;
+    margin: 30px auto 0;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(4,max-content);
+    column-gap: 40px;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: start;
+}
+
+
+.grid1 img{
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.music{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.about{
+    grid-column: 4;
+    grid-row: 4;
+}
+/* .grid1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-row-gap: 40px;
+} */

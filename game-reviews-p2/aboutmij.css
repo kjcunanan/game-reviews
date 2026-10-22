@@ -1,0 +1,16 @@
+body{
+    background-image: url(aboutimg/aboutmiibg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+
+    background-color: #FFC2D5;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+}
+
