@@ -1,12 +1,11 @@
 body{
     background-color: black;
-
     min-height: 100vh;
     margin: 0;
 }
 
 *{
-    cursor: url("img2/cursor\ tiny.png"), auto;
+    cursor: url("img2/cursor\ pointer.png"), auto;
     box-sizing: border-box;
 }
 
@@ -17,4 +16,53 @@ body{
     max-width: 100%;
     object-fit: contain;
     margin: 0 auto;
+}
+
+.headeritems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* .header-image{
+    height: 20px;
+    width: auto;
+    object-fit: contain;
+} */
+
+.centered-text{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+    /* add padding bottom if i want to make it more even */
+    height: 30px;
+    line-height: 40px; 
+    color: aliceblue;
+}
+
+.blue-text{
+    color:#4a86e8
+}
+
+.blinking-text{
+    animation: blinker 1.5s ease-in-out infinite;
+}
+
+@keyframes blinker{
+    0%, 100% {
+        opacity:1
+    }
+
+    50%{
+        opacity: 0;
+    }
+}
+
+.link-to-home{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    text-decoration: none;
+    color: inherit;
 }

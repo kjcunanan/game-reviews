@@ -1,5 +1,5 @@
 *{
-    cursor: url("img2/cursor\ tiny.png"), auto;
+    cursor: url("img2/cursor\ pointer.png"), auto;
     box-sizing: border-box;
 }
 
@@ -24,7 +24,7 @@ body{
     margin: 30px auto 0;
 }
 
-.grid1{
+.grid{
     display: grid;
     grid-template-columns: repeat(4,max-content);
     column-gap: 40px;
@@ -34,9 +34,9 @@ body{
 }
 
 
-.grid1 img{
+.grid img{
     width: auto;
-    height: auto;
+    height: 150px;
     display: block;
 }
 

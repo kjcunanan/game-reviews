@@ -14,3 +14,7 @@ body{
     overflow-x: hidden;
 }
 
+*{
+    cursor: url("img2/cursor\ pointer.png"), auto;
+    box-sizing: border-box;
+}
