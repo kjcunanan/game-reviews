@@ -4,13 +4,12 @@
 }
 
 body{
-    /* background-image: url(aboutreviewimgs/bg\ bg3.png);
+    background-image: url(aboutreviewimgs/botwbackground.gif);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-size: cover; */
-
-    background-color: skyblue;
+    background-size: cover;
+    background-color: #63D0FF;
     font-family: Arial, Helvetica, sans-serif;
 
     min-height: 100vh;
@@ -18,7 +17,6 @@ body{
     padding: 0;
 
     overflow-x: hidden;
-    -webkit-text-stroke: .7px #63D0FF;
 }
 
 .page{
@@ -36,9 +34,19 @@ body{
 .ratings{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 24px;
+    gap: 20px;
     flex: 1;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
     align-items: center;
+    font-size: 35px;
+    -webkit-text-stroke: 1.7px #63D0FF;
+
+    background-image: url(aboutreviewimgs/text\ box\ 4\ reviews.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .image{
@@ -67,15 +75,39 @@ body{
 
 .header h1{
     margin: 0;
+    -webkit-text-stroke: 1.5px #63D0FF;
+}
+
+.tutorial-top{
+    -webkit-text-stroke: 2.5px #63D0FF;
+    margin: 0;
+    padding: 0;
+}
+
+.tutorial-bottom{
+    -webkit-text-stroke: 2.5px #63D0FF;
+    margin: 0;
+    padding: 0;
 }
 
 .review-text{
-    height: 150px;
+    height: 200px;
     margin: 0;
     line-height: 1.5;
 
     overflow-y: auto;
     overflow-x: hidden;
+
+    -webkit-text-stroke: 1px #858789;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-image: url(aboutreviewimgs/text\ box\ 4\ reviews.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* controller sizing */
@@ -83,13 +115,14 @@ body{
 .ratings img{
     width: auto;
     height: 70px;
+    vertical-align: middle;
 }
 
 /* home buttom @the bottom */
 .home{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: -80px;
 }
 
 .home img{
