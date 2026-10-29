@@ -28,6 +28,7 @@ body::before{
     background-color: #63D0FF;
     font-family: Arial, Helvetica, sans-serif;
 
+    //can put in body//
     min-height: 100vh;
     margin: 0;
     padding: 0;
