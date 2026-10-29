@@ -4,7 +4,23 @@
 }
 
 body{
+    background-color: black;
+    position: relative;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
     background-image: url(aboutreviewimgs/botwbackground.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+/*  background-image: url(aboutreviewimgs/botwbackground.gif);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -16,8 +32,7 @@ body{
     margin: 0;
     padding: 0;
 
-    overflow-x: hidden;
-}
+    overflow-x: hidden; */
 
 .page{
     min-height: 100vh;
