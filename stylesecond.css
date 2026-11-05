@@ -62,3 +62,17 @@ body{
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+
+/* .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+    background-image: url(img2/bottom-border.png);
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+ */
