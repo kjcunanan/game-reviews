@@ -4,12 +4,11 @@
 }
 
 body{
-    /* background-image: url(img2/wii-background.png);
+    background-image: url(img2/bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-size: cover; */
-
+    background-size: cover;
     background-color: white;
 
     min-height: 100vh;
@@ -51,7 +50,7 @@ body{
     grid-row: 4;
 }
 
-.bottom{
+/* .bottom{
     display: grid;
     grid-template-columns: repeat(2);
     margin-top: 15px;
@@ -61,18 +60,13 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center bottom;
-}
+} */
 
-/* .bottom{
+.bottom{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 15px;
-    
-    background-image: url(img2/bottom-border.png);
-    background-size: 100% auto;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center bottom;
+    margin: 50px;
+    margin-bottom: 15px;
 }
- */
