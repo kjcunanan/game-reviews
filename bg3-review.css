@@ -1,0 +1,156 @@
+*{
+    cursor: url("img2/cursor\ pointer.png"), auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+@import url();
+
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url(aboutreviewimgs/bg3-the-shadow-curse-tumblr-1.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+/*  background-image: url(aboutreviewimgs/botwbackground.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    background-color: #63D0FF;
+    font-family: Arial, Helvetica, sans-serif;
+
+    //can put in body//
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden; */
+
+.page{
+    min-height: 100vh;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    color: white;
+    gap: 32px;
+
+    align-items: stretch;
+    font-size: 25px;
+}
+
+.ratings{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    align-items: center;
+    font-size: 35px;
+    -webkit-text-stroke: 1.7px #63D0FF;
+
+    background-image: url(aboutreviewimgs/text\ box\ 4\ reviews.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image{
+    min-width: 0;
+    align-self: stretch;
+    padding-top: 100px;
+}
+
+.image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.details{
+    min-width: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.header h1{
+    margin: 0;
+    -webkit-text-stroke: 1.5px #63D0FF;
+}
+
+.tutorial-top{
+    -webkit-text-stroke: 2.5px #63D0FF;
+    margin: 0;
+    padding: 0;
+}
+
+.tutorial-bottom{
+    -webkit-text-stroke: 1.5px #63D0FF;
+    margin: 0;
+    padding: 0;
+}
+
+.review-text{
+    height: 200px;
+    margin: 0;
+    line-height: 1.5;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    -webkit-text-stroke: 1px #858789;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-image: url(aboutreviewimgs/text\ box\ 4\ reviews.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* controller sizing */
+
+.ratings img{
+    width: auto;
+    height: 70px;
+    vertical-align: middle;
+}
+
+/* home buttom @the bottom */
+.home{
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+.home img{
+    width: auto;
+    height: 100px;
+    display: block;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.home a:hover img{
+    content: url(aboutreviewimgs/reg-home\ button.png);
+}
