@@ -15,7 +15,7 @@ body::before{
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url(aboutreviewimgs/botwbackground.gif);
+    background-image: url(aboutreviewimgs/backgroundbotw.gif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
